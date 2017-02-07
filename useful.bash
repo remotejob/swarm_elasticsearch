@@ -2,3 +2,6 @@ docker run -p 9200:9200 -p 9300:9300 elasticsearch:alpine -Etransport.host=0.0.0
 
 docker stack deploy --compose-file docker-compose.yml valcri_test
 
+
+docker service scale valcri_test_elasticsearch=2
+
