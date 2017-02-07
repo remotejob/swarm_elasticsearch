@@ -1,2 +1,2 @@
-# swarm_elsticsearch
-Set up swarm_elsticsearch
+# swarm_elasticsearch
+Set up swarm_elasticsearch
